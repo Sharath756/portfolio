@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.body{
+    background-image: linear-gradient(-55deg,#1A2D42,#2E4156,#5e79ad,#3a8cc0);
+    image-resolution: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Logo */
+.logo{
+    font-size: 3rem;
+    color: #fff;
+    font-family: Oswald;
+    font-weight: 500;
+}
+.logo span{
+    color: #fff;
+    transition: .3s;
+}
+.logo span:hover{
+    text-shadow: 0 0 15px #67a1c5;
+}
+
+/* Header */
+.header{
+    padding: 1.5rem;
+    background: #1A2D42;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Navbar */
+.navbar a{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    margin: 1.8rem;
+    color: #fff;
+    transition: .2s;
+}
+.navbar a:hover{
+    border-bottom: 3px solid #007BFF;
+}
+
+
+/* Home Section */
+
+.Home-section{
+    margin: 5px;
+    padding: 5rem;
+    color: #fff;
+    font-family: Poppins;
+    text-align: center;
+}
+.Home-section img{
+    margin-top: 2rem;
+    height: 50vh;
+    width: auto;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #1A2D42;
+    image-resolution: 100%;
+}
+.Home-section h2{
+    font-weight: 500;
+}
+.Home-section h1{
+    font-weight: 500;
+    font-size: 3rem;
+}
+.Home-section span{
+    color: #1A2D42;
+    font-size: 2rem;
+}
+.Home-section button{
+    padding: .7rem;
+    margin: .7rem 1rem;
+    color: #fff;
+    background: #007BFF;
+    border: 3px solid transparent;
+    box-shadow: 0 0 5px;
+    border-radius: 1rem;
+}
+.Home-section button a{
+    color: #fff;
+    font-size: 1.6rem;
+}
+/* About Section */
+.About-section{
+    margin: 1rem;
+    padding: 5rem;
+}
+.About-section h2{
+    font-family: Oswald;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+.about-box{
+    padding: 2rem;
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-box img{
+    margin: 50px;
+    height: 50vh;
+    width: auto;
+    color: #1A2D42;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+}
+
+.about-box p{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    background: transparent;
+    box-shadow: 0 0 10px;
+    border: 3px solid;
+    border-radius: 20px;
+    line-height: 1.5;
+    width: 50vw;
+    padding: 20px;
+}
+   
+/* Skills Section */
+
+.skill-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.skill-section h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    width: 300px;
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid transparent;
+    box-shadow: 0 0 10px;
+    border-radius: 1rem;
+    padding: 20px;
+    text-align: left;
+}
+.skill-box button{
+    background: #007BFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.skill-section h1{
+    color: #fff;
+    font-family: Oswald;
+    font-weight: 500;
+
+}
+.skill-box button h2 {
+    font-family: Oswald;
+    font-weight: 450;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-box i {
+    color: #fff;
+}
+
+.skill-box p {
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Project Section */
+
+.project-section {
+    padding: 8rem;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+.project-section h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #fff;
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 3rem;
+  }
+  .project-box {
+    display: flex; 
+    justify-content: space-around;  
+    gap: 20px; 
+  }
+  .project-content {
+    width: 50%;
+    margin-top: 10px;
+    background: transparent;
+    padding: 15px;
+    color: #fff;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    text-align: left;
+    
+  }
+  
+  .project-content button {
+    background-color: #007BFF;
+    color: #fff;
+    font-family: Poppins;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .project-content h2 {
+    font-family: Oswald;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .project-content p {
+    font-size: 1.2rem;
+    font-family: Poppins;
+    color: #fff;
+  }
+  
+.contact-section{
+    color: #fff;
+    padding: 10rem;
+}
+.contact-section h1{
+    font-family: Oswald;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 2rem;
+}
+.social-media{
+    line-height: 20px;
+}
+.contact-section h2{
+    font-family: Verdana;
+    font-weight: 450;
+    text-align: center;
+}
+.contact-section p{
+    padding: 15px;
+    font-family: Verdana;
+    font-weight: 450;
+    text-align: center;
+}
+.social-media h3{
+    font-family: Cambria;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+.social-media i{
+    color: #fff;
+    margin: 8px;
+    transition: .3s;
+}
+.social-media i:hover{
+    transform: scale(1.1);
+}
+
+.footer h3{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: Times New Roman;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* General Styles for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .navbar a {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+
+    .Home-section {
+        padding: 2rem;
+    }
+
+    .Home-section img {
+        height: 30vh;
+    }
+
+    .Home-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .Home-section span {
+        font-size: 1.5rem;
+    }
+
+    .Home-section button {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .About-section h2 {
+        font-size: 3rem;
+    }
+
+    .about-box {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-box p {
+        width: 90vw;
+    }
+
+    .skill-section h1 {
+        font-size: 3rem;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skill-box {
+        width: 90%;
+    }
+
+    .project-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .project-content {
+        width: 90%;
+    }
+
+    .contact-section {
+        padding: 5rem;
+    }
+
+    .social-media h3 {
+        font-size: 1.5rem;
+    }
+
+    .social-media i {
+        font-size: 1.5rem;
+    }
+}
+
+/* Styles for Tablets (Between 769px and 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .navbar a {
+        font-size: 1.3rem;
+        margin: 1.5rem;
+    }
+
+    .Home-section {
+        padding: 3rem;
+    }
+
+    .Home-section img {
+        height: 40vh;
+    }
+
+    .Home-section h1 {
+        font-size: 2.8rem;
+    }
+
+    .Home-section span {
+        font-size: 1.8rem;
+    }
+
+    .About-section h2 {
+        font-size: 3.5rem;
+    }
+
+    .about-box p {
+        width: 70vw;
+    }
+
+    .skills-container {
+        gap: 15px;
+    }
+
+    .skill-box {
+        width: 45%;
+    }
+
+    .project-box {
+        gap: 15px;
+    }
+
+    .project-content {
+        width: 45%;
+    }
+
+    .contact-section h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Styles for Laptops (Between 1025px and 1440px) */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .header {
+        padding: 1.5rem 2rem;
+    }
+
+    .navbar a {
+        font-size: 1.4rem;
+        margin: 1.7rem;
+    }
+
+    .Home-section {
+        padding: 4rem;
+    }
+
+    .Home-section img {
+        height: 45vh;
+    }
+
+    .Home-section h1 {
+        font-size: 3.2rem;
+    }
+
+    .Home-section span {
+        font-size: 2rem;
+    }
+
+    .skills-container {
+        gap: 20px;
+    }
+
+    .skill-box {
+        width: 30%;
+    }
+
+    .project-box {
+        gap: 20px;
+    }
+
+    .project-content {
+        width: 40%;
+    }
+
+    .contact-section {
+        padding: 8rem;
+    }
+}
+
+/* Styles for Desktops (1441px and above) */
+@media screen and (min-width: 1441px) {
+    .header {
+        padding: 2rem 3rem;
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+        margin: 2rem;
+    }
+
+    .Home-section {
+        padding: 5rem;
+    }
+
+    .Home-section img {
+        height: 50vh;
+    }
+
+    .skills-container {
+        gap: 25px;
+    }
+
+    .skill-box {
+        width: 25%;
+    }
+
+    .project-box {
+        gap: 25px;
+    }
+
+    .project-content {
+        width: 30%;
+    }
+}
+
+
